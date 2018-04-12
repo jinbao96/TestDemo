@@ -15,5 +15,7 @@ public class AESTest {
 		System.out.println("加密后：" + encrypt);
 		String decrypt = AESUtil.decrypt(encrypt, KEY);
 		System.out.println("解密后：" + decrypt);
+		
+		
 	}
 }
